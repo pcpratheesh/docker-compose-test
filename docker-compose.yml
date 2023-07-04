@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  my-service:
+    build:
+      context: https://github.com/pcpratheesh/docker-compose-test.git#main
+      dockerfile: Dockerfile
